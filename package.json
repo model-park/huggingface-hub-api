@@ -1,0 +1,33 @@
+{
+  "name": "@modelpark/huggingface-hub-api",
+  "version": "1.0.0",
+  "description": "Huggingface Hub API for Javascript",
+  "main": "./lib/index.js",
+  "types": "./lib/types/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./lib",
+    "build": "npm run clean && tsc",
+    "prepack": "npm run build",
+    "test": "mocha",
+    "docs": "rimraf ./docs && typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts"
+  },
+  "keywords": [],
+  "author": "Resul TURAN",
+  "license": "ISC",
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "rimraf": "^4.1.2",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.24",
+    "typedoc-plugin-markdown": "^3.14.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
