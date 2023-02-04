@@ -66,7 +66,7 @@ Service.constructor
 
 #### Defined in
 
-index.ts:6
+[index.ts:6](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L6)
 
 ## Properties
 
@@ -80,7 +80,7 @@ Service.accessToken
 
 #### Defined in
 
-index.ts:7
+[index.ts:7](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L7)
 
 ___
 
@@ -94,7 +94,7 @@ Service.baseUrl
 
 #### Defined in
 
-index.ts:9
+[index.ts:9](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L9)
 
 ___
 
@@ -122,7 +122,7 @@ Service.transformHeaders
 
 #### Defined in
 
-index.ts:8
+[index.ts:8](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L8)
 
 ## Methods
 
@@ -142,7 +142,7 @@ index.ts:8
 
 #### Defined in
 
-index.ts:50
+[index.ts:50](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L50)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Defined in
 
-index.ts:54
+[index.ts:54](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L54)
 
 ___
 
@@ -188,7 +188,7 @@ Service.DeleteRequest
 
 #### Defined in
 
-service.ts:41
+[service.ts:41](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L41)
 
 ___
 
@@ -212,7 +212,7 @@ Service.GetData
 
 #### Defined in
 
-service.ts:107
+[service.ts:107](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L107)
 
 ___
 
@@ -233,7 +233,7 @@ ___
 
 #### Defined in
 
-index.ts:38
+[index.ts:38](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L38)
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 #### Defined in
 
-index.ts:42
+[index.ts:42](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L42)
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 #### Defined in
 
-index.ts:34
+[index.ts:34](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L34)
 
 ___
 
@@ -285,7 +285,7 @@ Service.GetHeaders
 
 #### Defined in
 
-service.ts:98
+[service.ts:98](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L98)
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 #### Defined in
 
-index.ts:46
+[index.ts:46](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L46)
 
 ___
 
@@ -320,7 +320,7 @@ ___
 
 #### Defined in
 
-index.ts:18
+[index.ts:18](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L18)
 
 ___
 
@@ -334,7 +334,7 @@ ___
 
 #### Defined in
 
-index.ts:30
+[index.ts:30](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L30)
 
 ___
 
@@ -354,7 +354,7 @@ ___
 
 #### Defined in
 
-index.ts:14
+[index.ts:14](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L14)
 
 ___
 
@@ -379,7 +379,7 @@ Service.GetRequest
 
 #### Defined in
 
-service.ts:12
+[service.ts:12](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L12)
 
 ___
 
@@ -400,7 +400,7 @@ ___
 
 #### Defined in
 
-index.ts:26
+[index.ts:26](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L26)
 
 ___
 
@@ -420,7 +420,7 @@ ___
 
 #### Defined in
 
-index.ts:22
+[index.ts:22](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L22)
 
 ___
 
@@ -440,7 +440,7 @@ ___
 
 #### Defined in
 
-index.ts:62
+[index.ts:62](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L62)
 
 ___
 
@@ -466,7 +466,7 @@ Service.PatchRequest
 
 #### Defined in
 
-service.ts:56
+[service.ts:56](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L56)
 
 ___
 
@@ -492,7 +492,7 @@ Service.PostRequest
 
 #### Defined in
 
-service.ts:26
+[service.ts:26](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L26)
 
 ___
 
@@ -518,7 +518,7 @@ Service.PutRequest
 
 #### Defined in
 
-service.ts:71
+[service.ts:71](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L71)
 
 ___
 
@@ -541,7 +541,7 @@ ___
 
 #### Defined in
 
-index.ts:58
+[index.ts:58](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L58)
 
 ___
 
@@ -565,7 +565,7 @@ ___
 
 #### Defined in
 
-index.ts:66
+[index.ts:66](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L66)
 
 ___
 
@@ -579,7 +579,7 @@ ___
 
 #### Defined in
 
-index.ts:70
+[index.ts:70](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L70)
 
 ___
 
@@ -604,4 +604,4 @@ Service.getUri
 
 #### Defined in
 
-service.ts:86
+[service.ts:86](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L86)
