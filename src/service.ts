@@ -8,9 +8,9 @@ export class Service {
         public readonly baseUrl: string = 'https://huggingface.co',
     ) { }
 
-    public async GetRequest(uri: string, params?: Params): Promise<any> {
+    public async GetRequest(uri: string, params?: Params, url?: string): Promise<any> {
         try {
-            const response = await fetch(this.getUri(uri, params), {
+            const response = await fetch(url || this.getUri(uri, params), {
                 method: 'GET',
                 headers: this.GetHeaders(),
             });
@@ -22,9 +22,9 @@ export class Service {
         }
     }
 
-    public async PostRequest(uri: string, body: any, params?: Params): Promise<any> {
+    public async PostRequest(uri: string, body: any, params?: Params, url?: string): Promise<any> {
         try {
-            const response = await fetch(this.getUri(uri, params), {
+            const response = await fetch(url || this.getUri(uri, params), {
                 method: 'POST',
                 headers: this.GetHeaders(),
                 body: JSON.stringify(body),

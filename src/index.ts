@@ -10,16 +10,16 @@ export default class HFHubService extends Service {
         super(accessToken, transformHeaders, baseUrl,);
     }
 
-    public GetModels(params?: Params): ResponseType<Array<Model>> {
-        return this.GetRequest("/models", params);
+    public GetModels(params?: Params, url?: string): ResponseType<Array<Model>> {
+        return this.GetRequest("/models", params, url);
     }
 
     public GetModel(modelId: string, params?: Params): ResponseType<Model> {
         return this.GetRequest(`/models/${modelId}`, params);
     }
 
-    public GetSpaces(params?: Params): ResponseType<Array<Space>> {
-        return this.GetRequest("/spaces", params);
+    public GetSpaces(params?: Params, url?: string): ResponseType<Array<Space>> {
+        return this.GetRequest("/spaces", params, url);
     }
 
     public GetSpace(spaceId: string, params?: Params): ResponseType<Space> {
@@ -30,8 +30,8 @@ export default class HFHubService extends Service {
         return this.GetRequest(`/models-tags-by-type`);
     }
 
-    public GetDatasets(params?: Params): ResponseType<Array<Dataset>> {
-        return this.GetRequest(`/datasets`, params);
+    public GetDatasets(params?: Params, url?: string): ResponseType<Array<Dataset>> {
+        return this.GetRequest(`/datasets`, params, url);
     }
 
     public GetDataset(datasetId: string, params?: Params): ResponseType<Dataset> {
