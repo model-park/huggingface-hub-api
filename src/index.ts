@@ -1,5 +1,5 @@
-import { Headers } from 'node-fetch';
 import { Dataset, Metric, Model, Params, ResponseType, Space, Tag, User } from './entities';
+import "./fetch-polyfill";
 import { Service } from './service';
 
 export default class HFHubService extends Service {

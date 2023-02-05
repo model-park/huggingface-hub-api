@@ -1,4 +1,3 @@
-import fetch, { Headers, Response } from 'node-fetch';
 import { Params } from "./entities";
 
 export class Service {
