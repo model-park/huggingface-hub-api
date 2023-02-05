@@ -104,7 +104,7 @@ export class Service {
     }
 
     protected async GetData(response: Response) {
-        const data = response.json();
+        const data = await response.json();
 
         const nextUrl = response.headers
             .get('Link')
