@@ -70,5 +70,6 @@ export default class HFHubService extends Service {
     public WhoAmI(): ResponseType<User> {
         return this.GetRequest(`/whoami-v2`);
     }
-
 }
+
+export * from './entities';

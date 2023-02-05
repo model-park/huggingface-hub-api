@@ -66,7 +66,7 @@ Service.constructor
 
 #### Defined in
 
-[index.ts:6](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L6)
+[index.ts:6](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L6)
 
 ## Properties
 
@@ -80,7 +80,7 @@ Service.accessToken
 
 #### Defined in
 
-[index.ts:7](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L7)
+[index.ts:7](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L7)
 
 ___
 
@@ -94,7 +94,7 @@ Service.baseUrl
 
 #### Defined in
 
-[index.ts:9](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L9)
+[index.ts:9](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L9)
 
 ___
 
@@ -122,13 +122,13 @@ Service.transformHeaders
 
 #### Defined in
 
-[index.ts:8](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L8)
+[index.ts:8](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L8)
 
 ## Methods
 
 ### CreateRepo
 
-▸ **CreateRepo**(`data`): `ResponseType`<`any`\>
+▸ **CreateRepo**(`data`): [`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Parameters
 
@@ -138,17 +138,17 @@ Service.transformHeaders
 
 #### Returns
 
-`ResponseType`<`any`\>
+[`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Defined in
 
-[index.ts:50](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L50)
+[index.ts:50](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L50)
 
 ___
 
 ### DeleteRepo
 
-▸ **DeleteRepo**(`data`): `ResponseType`<`any`\>
+▸ **DeleteRepo**(`data`): [`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Parameters
 
@@ -158,11 +158,11 @@ ___
 
 #### Returns
 
-`ResponseType`<`any`\>
+[`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Defined in
 
-[index.ts:54](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L54)
+[index.ts:54](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L54)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 | :------ | :------ |
 | `uri` | `string` |
 | `body` | `any` |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
@@ -188,7 +188,7 @@ Service.DeleteRequest
 
 #### Defined in
 
-[service.ts:41](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L41)
+[service.ts:41](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/service.ts#L41)
 
 ___
 
@@ -212,62 +212,62 @@ Service.GetData
 
 #### Defined in
 
-[service.ts:107](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L107)
+[service.ts:107](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/service.ts#L107)
 
 ___
 
 ### GetDataset
 
-▸ **GetDataset**(`datasetId`, `params?`): `ResponseType`<`Dataset`\>
+▸ **GetDataset**(`datasetId`, `params?`): [`ResponseType`](../modules.md#responsetype)<[`Dataset`](../interfaces/Dataset.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `datasetId` | `string` |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
-`ResponseType`<`Dataset`\>
+[`ResponseType`](../modules.md#responsetype)<[`Dataset`](../interfaces/Dataset.md)\>
 
 #### Defined in
 
-[index.ts:38](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L38)
+[index.ts:38](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L38)
 
 ___
 
 ### GetDatasetTagsByType
 
-▸ **GetDatasetTagsByType**(): `ResponseType`<`Tag`[]\>
+▸ **GetDatasetTagsByType**(): [`ResponseType`](../modules.md#responsetype)<[`Tag`](../interfaces/Tag.md)[]\>
 
 #### Returns
 
-`ResponseType`<`Tag`[]\>
+[`ResponseType`](../modules.md#responsetype)<[`Tag`](../interfaces/Tag.md)[]\>
 
 #### Defined in
 
-[index.ts:42](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L42)
+[index.ts:42](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L42)
 
 ___
 
 ### GetDatasets
 
-▸ **GetDatasets**(`params?`): `ResponseType`<`Dataset`[]\>
+▸ **GetDatasets**(`params?`): [`ResponseType`](../modules.md#responsetype)<[`Dataset`](../interfaces/Dataset.md)[]\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
-`ResponseType`<`Dataset`[]\>
+[`ResponseType`](../modules.md#responsetype)<[`Dataset`](../interfaces/Dataset.md)[]\>
 
 #### Defined in
 
-[index.ts:34](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L34)
+[index.ts:34](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L34)
 
 ___
 
@@ -285,76 +285,76 @@ Service.GetHeaders
 
 #### Defined in
 
-[service.ts:98](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L98)
+[service.ts:98](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/service.ts#L98)
 
 ___
 
 ### GetMetrics
 
-▸ **GetMetrics**(): `ResponseType`<`Metric`[]\>
+▸ **GetMetrics**(): [`ResponseType`](../modules.md#responsetype)<[`Metric`](../interfaces/Metric.md)[]\>
 
 #### Returns
 
-`ResponseType`<`Metric`[]\>
+[`ResponseType`](../modules.md#responsetype)<[`Metric`](../interfaces/Metric.md)[]\>
 
 #### Defined in
 
-[index.ts:46](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L46)
+[index.ts:46](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L46)
 
 ___
 
 ### GetModel
 
-▸ **GetModel**(`modelId`, `params?`): `ResponseType`<`Model`\>
+▸ **GetModel**(`modelId`, `params?`): [`ResponseType`](../modules.md#responsetype)<[`Model`](../interfaces/Model.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `modelId` | `string` |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
-`ResponseType`<`Model`\>
+[`ResponseType`](../modules.md#responsetype)<[`Model`](../interfaces/Model.md)\>
 
 #### Defined in
 
-[index.ts:18](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L18)
+[index.ts:18](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L18)
 
 ___
 
 ### GetModelTagsByType
 
-▸ **GetModelTagsByType**(): `ResponseType`<`Tag`[]\>
+▸ **GetModelTagsByType**(): [`ResponseType`](../modules.md#responsetype)<[`Tag`](../interfaces/Tag.md)[]\>
 
 #### Returns
 
-`ResponseType`<`Tag`[]\>
+[`ResponseType`](../modules.md#responsetype)<[`Tag`](../interfaces/Tag.md)[]\>
 
 #### Defined in
 
-[index.ts:30](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L30)
+[index.ts:30](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L30)
 
 ___
 
 ### GetModels
 
-▸ **GetModels**(`params?`): `ResponseType`<`Model`[]\>
+▸ **GetModels**(`params?`): [`ResponseType`](../modules.md#responsetype)<[`Model`](../interfaces/Model.md)[]\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
-`ResponseType`<`Model`[]\>
+[`ResponseType`](../modules.md#responsetype)<[`Model`](../interfaces/Model.md)[]\>
 
 #### Defined in
 
-[index.ts:14](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L14)
+[index.ts:14](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L14)
 
 ___
 
@@ -367,7 +367,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `uri` | `string` |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
@@ -379,54 +379,54 @@ Service.GetRequest
 
 #### Defined in
 
-[service.ts:12](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L12)
+[service.ts:12](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/service.ts#L12)
 
 ___
 
 ### GetSpace
 
-▸ **GetSpace**(`spaceId`, `params?`): `ResponseType`<`Space`\>
+▸ **GetSpace**(`spaceId`, `params?`): [`ResponseType`](../modules.md#responsetype)<[`Space`](../interfaces/Space.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `spaceId` | `string` |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
-`ResponseType`<`Space`\>
+[`ResponseType`](../modules.md#responsetype)<[`Space`](../interfaces/Space.md)\>
 
 #### Defined in
 
-[index.ts:26](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L26)
+[index.ts:26](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L26)
 
 ___
 
 ### GetSpaces
 
-▸ **GetSpaces**(`params?`): `ResponseType`<`Space`[]\>
+▸ **GetSpaces**(`params?`): [`ResponseType`](../modules.md#responsetype)<[`Space`](../interfaces/Space.md)[]\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
-`ResponseType`<`Space`[]\>
+[`ResponseType`](../modules.md#responsetype)<[`Space`](../interfaces/Space.md)[]\>
 
 #### Defined in
 
-[index.ts:22](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L22)
+[index.ts:22](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L22)
 
 ___
 
 ### MoveRepo
 
-▸ **MoveRepo**(`data`): `ResponseType`<`any`\>
+▸ **MoveRepo**(`data`): [`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Parameters
 
@@ -436,11 +436,11 @@ ___
 
 #### Returns
 
-`ResponseType`<`any`\>
+[`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Defined in
 
-[index.ts:62](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L62)
+[index.ts:62](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L62)
 
 ___
 
@@ -454,7 +454,7 @@ ___
 | :------ | :------ |
 | `uri` | `string` |
 | `body` | `any` |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
@@ -466,7 +466,7 @@ Service.PatchRequest
 
 #### Defined in
 
-[service.ts:56](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L56)
+[service.ts:56](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/service.ts#L56)
 
 ___
 
@@ -480,7 +480,7 @@ ___
 | :------ | :------ |
 | `uri` | `string` |
 | `body` | `any` |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
@@ -492,7 +492,7 @@ Service.PostRequest
 
 #### Defined in
 
-[service.ts:26](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L26)
+[service.ts:26](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/service.ts#L26)
 
 ___
 
@@ -506,7 +506,7 @@ ___
 | :------ | :------ |
 | `uri` | `string` |
 | `body` | `any` |
-| `params?` | `Params` |
+| `params?` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
@@ -518,13 +518,13 @@ Service.PutRequest
 
 #### Defined in
 
-[service.ts:71](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L71)
+[service.ts:71](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/service.ts#L71)
 
 ___
 
 ### UpdateRepoVisibility
 
-▸ **UpdateRepoVisibility**(`type`, `repo_id`, `data`): `ResponseType`<`any`\>
+▸ **UpdateRepoVisibility**(`type`, `repo_id`, `data`): [`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Parameters
 
@@ -537,17 +537,17 @@ ___
 
 #### Returns
 
-`ResponseType`<`any`\>
+[`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Defined in
 
-[index.ts:58](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L58)
+[index.ts:58](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L58)
 
 ___
 
 ### UploadFile
 
-▸ **UploadFile**(`type`, `repo_id`, `revision`, `path_in_repo`, `data`): `ResponseType`<`any`\>
+▸ **UploadFile**(`type`, `repo_id`, `revision`, `path_in_repo`, `data`): [`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Parameters
 
@@ -561,25 +561,25 @@ ___
 
 #### Returns
 
-`ResponseType`<`any`\>
+[`ResponseType`](../modules.md#responsetype)<`any`\>
 
 #### Defined in
 
-[index.ts:66](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L66)
+[index.ts:66](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L66)
 
 ___
 
 ### WhoAmI
 
-▸ **WhoAmI**(): `ResponseType`<`User`\>
+▸ **WhoAmI**(): [`ResponseType`](../modules.md#responsetype)<[`User`](../interfaces/User.md)\>
 
 #### Returns
 
-`ResponseType`<`User`\>
+[`ResponseType`](../modules.md#responsetype)<[`User`](../interfaces/User.md)\>
 
 #### Defined in
 
-[index.ts:70](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/index.ts#L70)
+[index.ts:70](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/index.ts#L70)
 
 ___
 
@@ -592,7 +592,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `uri` | `string` |
-| `params` | `Params` |
+| `params` | [`Params`](../interfaces/Params.md) |
 
 #### Returns
 
@@ -604,4 +604,4 @@ Service.getUri
 
 #### Defined in
 
-[service.ts:86](https://github.com/model-park/huggingface-hub-api/blob/07b65f2/src/service.ts#L86)
+[service.ts:86](https://github.com/model-park/huggingface-hub-api/blob/ddc4144/src/service.ts#L86)
