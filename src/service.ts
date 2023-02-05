@@ -5,7 +5,7 @@ export class Service {
     constructor (
         public accessToken?: string,
         public transformHeaders: (headers: Headers) => Headers = (headers) => headers,
-        public readonly baseUrl: string = 'https://huggingface.co/api',
+        public readonly baseUrl: string = 'https://huggingface.co',
     ) { }
 
     public async GetRequest(uri: string, params?: Params): Promise<any> {
@@ -83,7 +83,7 @@ export class Service {
     }
 
     protected getUri(uri: string, params: Params = {}): string {
-        const _uri = new URL(uri, this.baseUrl);
+        const _uri = new URL("/api" + uri, this.baseUrl);
 
         Object.entries(params).forEach(([key, value]: [any, any]) => {
             if (value) {
