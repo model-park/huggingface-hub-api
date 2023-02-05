@@ -5,12 +5,12 @@ export class Service {
     constructor (
         public accessToken?: string,
         public transformHeaders: (headers: Headers) => Headers = (headers) => headers,
-        public readonly baseUrl: string = 'https://huggingface.co',
+        public readonly baseUrl: string = 'https://huggingface.co/api',
     ) { }
 
-    public async GetRequest(uri: string, params?: Params, url?: string): Promise<any> {
+    public async GetRequest(path: string, params?: Params, url?: string): Promise<any> {
         try {
-            const response = await fetch(url || this.getUri(uri, params), {
+            const response = await fetch(url || this.getUri(path, params), {
                 method: 'GET',
                 headers: this.GetHeaders(),
             });
@@ -22,9 +22,9 @@ export class Service {
         }
     }
 
-    public async PostRequest(uri: string, body: any, params?: Params, url?: string): Promise<any> {
+    public async PostRequest(path: string, body: any, params?: Params, url?: string): Promise<any> {
         try {
-            const response = await fetch(url || this.getUri(uri, params), {
+            const response = await fetch(url || this.getUri(path, params), {
                 method: 'POST',
                 headers: this.GetHeaders(),
                 body: JSON.stringify(body),
@@ -82,8 +82,8 @@ export class Service {
         }
     }
 
-    protected getUri(uri: string, params: Params = {}): string {
-        const _uri = new URL("/api" + uri, this.baseUrl);
+    protected getUri(path: string, params: Params = {}): string {
+        const _uri = new URL(this.baseUrl + path);
 
         Object.entries(params).forEach(([key, value]: [any, any]) => {
             if (value) {
