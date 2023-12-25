@@ -112,7 +112,7 @@ export class Service {
             ?.find((link: string) => link.includes('rel="next"'))
             ?.split(';')[0].replace('<', '').replace('>', '');
 
-        const total = response.headers.get('X-Total-Count');
+        const total = Number(response.headers.get('X-Total-Count'));
         return { data, nextUrl, total };
     }
 }

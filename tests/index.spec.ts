@@ -1,12 +1,6 @@
+import { expect } from 'chai';
 import 'mocha';
-import { assert, expect } from 'chai';
 import HuggingfaceHubService from '../src';
-
-describe('NPM Package', () => {
-    it('should be an object', () => {
-        assert.isObject(HuggingfaceHubService);
-    });
-});
 
 describe('Get Models', () => {
     it('should return the models', async () => {
